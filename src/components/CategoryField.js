@@ -1,7 +1,7 @@
 import React from 'react'
 
 const CategoryField = (props) => {
-  const { category, checked }  = props
+  const { category, checked } = props
 
   return (
     <div className=" four wide field">
