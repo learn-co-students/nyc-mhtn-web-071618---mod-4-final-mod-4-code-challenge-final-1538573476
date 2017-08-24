@@ -35,7 +35,8 @@ You can approach this any way you would like but below is a reasonable approach 
 
 1) Get the list of Transactions to display on the page given the transactions data being imported.
 2) After that is working, replace that data with the JSON you fetch from this url: [https://boiling-brook-94902.herokuapp.com/transactions](https://boiling-brook-94902.herokuapp.com/transactions). It will be in the same format as the  default data.
-3) Now that you are using the real data, ensure that the user selecting a radio button renders only the transactions in the selected category (or render all transactions if the selected category is `'All'`).
+3) Now that you are using the real data, focus on making the radio buttons work. Hint: _When a user changes the category, this information should be stored somewhere._
+4) Ensure that the user selecting a radio button renders only the transactions in the selected category (or render all transactions if the selected category is `'All'`).
 
 ## Criteria
 
